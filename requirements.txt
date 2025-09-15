@@ -1,10 +1,13 @@
-fastapi==0.110.0
-uvicorn[standard]==0.29.0
-SQLAlchemy==2.0.30
-psycopg[binary]==3.2.9 
-python-multipart==0.0.9
-passlib[bcrypt]==1.7.4
-bcrypt<4  
-python-jose==3.3.0
-pydantic-settings==2.2.1
-                 # 🔒 empêche la 4.x
+fastapi
+uvicorn
+sqlalchemy
+python-dotenv
+pydantic
+passlib[bcrypt]
+python-jose
+transformers
+pandas
+numpy
+openpyxl
+requests
+groq

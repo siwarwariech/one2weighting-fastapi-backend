@@ -86,17 +86,6 @@ GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 if not GROQ_API_KEY:
     raise RuntimeError("❌ Ajoute GROQ_API_KEY=... dans ton .env")
 
-# Init FastAPI
-app = FastAPI()
-
-# Activer CORS
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],  # en prod, mets ton domaine Vercel
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
 
 # Init client Groq
 client = Groq(api_key=GROQ_API_KEY)

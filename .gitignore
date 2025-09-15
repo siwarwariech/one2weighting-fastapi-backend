@@ -1,0 +1,45 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+
+# Databases (local only)
+*.db
+*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Virtual env
+venv/
+.env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Databases local
+*.db
+*.sqlite3
+
+# Build / dist
+build/
+dist/
+*.exe
+*.pkg
+
+venv/
+__pycache__/
+*.db
+*.sqlite
+*.pyc
+.env
+uploads/
